@@ -28,7 +28,7 @@
                     callback();
                     return;
                 }
-                playSoundFromUrl(queryResults[query].results[0].previews['preview-hq-mp3'], callback);
+                playSoundFromUrl(queryResults[query].results[0].previews['preview-lq-mp3'], callback);
                 return;
             }
 
